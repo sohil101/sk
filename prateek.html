@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SpaceX form page</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <header>
+    <h1>Welcome to SpaceX</h1>
+    <h3>The trip to Mars is on the go! Register yourself here.</h3>
+    </header> 
+
+    <!-- contact form starts here  -->
+    <div class="reg-page">
+      <div class="left-container">
+        
+        <!-- name and resume input -->
+        <div class="set">
+          <div class="name">
+            <label for="name">Full Name:</label>
+            <input placeholder=" Ex: Sohil Khan" type="text" id="full-name" />
+          </div>
+          <div class="resume">
+            <button id="resume-button"></button>
+            <label for="upload-resume">&nbsp; Upload your Resume</label>
+          </div>
+        </div>
+
+        <!-- email and phone-number input -->
+        <div class="set">
+          <div class="email">
+            <label for="email-id">Email ID:</label>
+            <input placeholder=" Ex: abcd@example.com" type="email" id="email-id" />
+          </div>
+          <div class="phone">
+            <label for="phone-number">Contact Number:</label>
+            <input placeholder=" Ex: +91-1234567890" type="text" id="phone-number" />
+        </div>
+        </div>
+
+        <!-- gender and DOB input -->
+        <div class="set">
+            <div class="gender">
+                <label for="gender">Gender:</label>
+                <div class="selection">
+                    <input id="gender-male" name="gender" type="radio" value="male" />
+                    <label for="gender-male">Male</label>
+                    <input id="gender-female" name="gender" type="radio" value="female"/>
+                    <label for="gender-female">Female</label>
+                    
+                </div>
+            </div>
+            <div class="dob">
+                <label for="dob">Your Date of Birth:</label>
+                <input type="date" id="dob" />
+              </div>
+        </div>
+
+        <!-- submit button -->
+        <div class="button">
+            <button id="apply">Apply</button>
+        </div>
+      </div>
+
+        <!-- rightward image -->
+        <div class="right-container">
+            <img src="mars.webp" alt="SpaceX" />
+        </div>
+    </div>
+
+    <!-- End line -->
+    <footer>
+      <p>
+        *This is not the official page of SpaceX. This page is made for
+        practicing HTML & CSS
+      </p>
+    </footer>
+</body>
+</html>
